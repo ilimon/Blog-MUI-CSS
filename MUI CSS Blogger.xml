@@ -299,7 +299,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 @media(max-width:640px){.mui-container{max-width:95%}#header .mui-container,#footer .mui-container{padding:0 15px}}
 </b:if>
 <b:if cond='data:view.isSingleItem'>
-#content-wrapper .mui-container{padding:0 10px}@media(max-width:544px){#header .mui-container,#footer .mui-container{padding:0 15px;max-width:100%}#content-wrapper .mui-container{max-width:100%;padding:0}#main-wrapper,#main-ads .widget{padding:0!important}#blog-pager,.post-author-inner,.post-author-profile h3,#related-post h3,ul#related-summary,#comments h3,.post-outer .post-body{padding:10px 15px!important}.post-outer .post-body,#comments,#related-post,.comments .comments-content,.post-author-profile,#blog-pager-container{border:none!important;margin:0!important}}@media(min-width:768px){#comments h3,.comments .comments-content,#comments .footer,#commentsHolder,.post-outer .post-body,ul#related-summary,#related-post h3,.post-author-profile h3,.post-author-inner,#blog-pager{padding:20px}}	
+#content-wrapper .mui-container{padding:0 10px}
+@media(max-width:544px){#header .mui-container,#footer .mui-container{padding:0 15px;max-width:100%}#content-wrapper .mui-container{max-width:100%;padding:0}#main-wrapper,#main-ads .widget{padding:0!important}#blog-pager,.post-author-inner,.post-author-profile h3,#related-post h3,ul#related-summary,#comments h3,.post-outer .post-body{padding:10px 15px!important}.post-outer .post-body,#comments,#related-post,.comments .comments-content,.post-author-profile,#blog-pager-container{border:none!important;margin:0!important}}
+@media(min-width:768px){#comments h3,.comments .comments-content,#comments .footer,#commentsHolder,.post-outer .post-body,ul#related-summary,#related-post h3,.post-author-profile h3,.post-author-inner,#blog-pager,#disqus_thread{padding:20px}}		
 </b:if>
 
 /* HIDDEN */
@@ -510,6 +512,11 @@ pre{background-color:#fafafa;padding:15px;border:1px solid #ebebeb;overflow-x:sc
 /*==========================================
 =            INCLUDE WIDGET CSS            =
 ==========================================*/
+
+/* DISQUS */
+#disqus_thread {
+padding:20px 15px;
+}
 
 /* CUSTOM BUTTON  */
 .mui-btn--primary{color:#fff}.mui-btn--custom{border:1px solid #ebebeb}.mui-dropdown__menu li a{padding:8px 5px 8px 15px;line-height:1.5}	
