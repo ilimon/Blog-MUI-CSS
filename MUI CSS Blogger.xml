@@ -410,7 +410,7 @@ body.hide-sidedrawer #footer{margin-left:0}
 pre{background-color:#fafafa;padding:15px;border:1px solid #ebebeb;overflow-x:scroll}@media(max-width:360px){pre{max-height:250px}}
 
 /* POST BLOCKQUOTE */
-.post-body blockquote{font-size:1.4em;width:60%;margin:50px auto;font-family:Open Sans;font-style:italic;color:#555;padding:1.2em 30px 1.2em 75px;border-left:8px solid #78c0a8;line-height:1.6;position:relative;background:#ededed}.post-body blockquote::before{font-family:Arial;content:&quot;\201C&quot;color:#78c0a8;font-size:4em;position:absolute;left:10px;top:-10px}.post-body blockquote::after{content:&#39;&#39;}.post-body blockquote span{display:block;color:#333;font-style:normal;font-weight:bold;margin-top:1em}
+blockquote {padding:10px; background:#fafafa; border-left:1px solid #ebebeb; border-left:15px solid #ebebeb; } @media (max-width:360px) {blockquote {overflow-x:scroll; max-height:250px; } }
 
 /* POST TABLE */		
 .post-body table{width:100%}
